@@ -1,31 +1,175 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Cameylon Hero</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="./style.css">
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
+<head>
+	<title>Camyelon</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
-<body>
-<!-- partial:index.partial.html -->
-<div id="parallax">
-  <div class="layer" data-depth="0.6">
-    <div class="some-space">
-      <h1>Cameylon Digital Media</h1>
-    </div>
-  </div>
-  <div class="layer" data-depth="0.4">
-    <div id="particles-js"></div>
-  </div>
-  <div class="layer" data-depth="0.3">
-    <div class="some-more-space"><a href="https://cameylon.com" target="_blank">Future is now...</a></div>
-  </div>
-</div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
-<script src='https://matthew.wagerfield.com/parallax/deploy/jquery.parallax.js'></script><script  src="./script.js"></script>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="logo">
+				<span class="icon fa-universal-access"></span>
+			</div>
+			<div class="content">
+				<div class="inner">
+					<h1><span class="h2c">C</span>ameylon age of marketing innovation</h1>
+					<center>
+						<h2>Future focus marketing, utilising VR / AR / Mixed reality.</h2>
+						<h2>Evolving around industry 4.0.</h2>
+						<h2>Pushing media marketing beyond its limits.</h2>
+						<h2>There's never a can't, Just that we can... </h2>
+					</center>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<!--
+								<li><a href="#intro">Blog</a></li>
+								<li><a href="#work">Current</a></li>
+								<li><a href="#about">About</a></li> 
+								-->
+
+					<li><a href="#contact">
+							<h2>Contact</h2>
+						</a></li>
+					<!--<li><a href="#elements">Elements</a></li>-->
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+
+		
+
+	
+
+			<!-- About -->
+			<article id="about">
+				<h2 class="major">About</h2>
+				<span class="image main"><img src="images/logo5.png" alt="" /></span>
+				<center>
+					<p> We are current future focus marketing, utilising VR / AR / Mixed reality.</p>
+					<p>Evolving around industry 4.0.</p>
+					<p>Pushing media marketing beyond its limits.</p>
+					<p>There's never a can't, Just that we can... </p>
+				</center>
+
+
+			</article>
+
+			<!-- Contact -->
+			<article id="contact">
+				<h2 class="major">Contact</h2>
+
+				<!-- New Form -->
+				<!-- Rediret responses -->
+				<script type="text/javascript">
+					var submitted = false;
+				</script>
+				<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+					onload="if(submitted) {window.location='https://hero/hero.html';}"></iframe>
+				<form
+					action="https://docs.google.com/forms/d/e/1FAIpQLSdxUkYqKfrHIKLMwGcB2ApWFG2ZgP3E-OMmidEWZ-WDhUQayQ/formResponse"
+					method="post" target="hidden_iframe" onsubmit="submitted=true;">
+
+					<!-- Posting to Google Sheet -->
+					<form
+						action="https://docs.google.com/forms/d/e/1FAIpQLSdxUkYqKfrHIKLMwGcB2ApWFG2ZgP3E-OMmidEWZ-WDhUQayQ/formResponse"
+						target="_self" method="POST" id="mG61Hd">
+
+
+
+
+						<label>Name*</label>
+						<input type="text" placeholder="Name*" name="entry.1040204247" required>
+
+						<label>Email Address*</lable>
+							<input type="email" placeholder="Email addresss*" name="entry.327771358" required>
+
+							<label>Subject</lable>
+								<input type="text" placeholder="Subject" name="entry.254265131">
+
+								<label>Message</lable>
+									<input type="text" placeholder="Message" name="entry.1813645407">
+									<br>
+									<ul class="actions">
+										<!-- Change reset to Submit  -->
+										<li><input type="reset" value="Reset" /></li>
+										<a href="/hero/hero.html" class<button type="submit">Send</button>
+
+									</ul>
+					</form>
+
+					<!--  End of New Form -->
+
+
+
+				
+
+
+			<!-- submit-to-google-sheet -->
+			<script>
+				const scriptURL = 'https://script.google.com/macros/s/AKfycbxEWrGJJgwyR3sli5rvbbRYG3NsLKzBI-g3H0gsSLaIOYO66g/exec
+				'
+				const form = document.forms['submit-to-google-sheet']
+
+				form.addEventListener('submit', e => {
+				e.preventDefault()
+				fetch(scriptURL, {
+						method: 'POST',
+						body: new FormData(form)
+					})
+					.then(response => console.log('Success!', response))
+					.catch(error => console.error('Error!', error.message))
+				}))
+			</script>
+
+
+
+			
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<p class="copyright">&copy; Cameylon: <a href="https://cameylon.com">Cameylon your digital </a>.</p>
+		</footer>
+
+	</div>
+
+	<!-- BG -->
+	<div id="bg"></div>
+
+	<!-- Scripts -->
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+
+
+
+
+
 
 </body>
+
 </html>
